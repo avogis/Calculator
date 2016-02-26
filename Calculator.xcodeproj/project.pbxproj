@@ -19,6 +19,7 @@
 		ECA29D091C806A1400D31A2B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA29D081C806A1400D31A2B /* InterfaceController.swift */; };
 		ECA29D0B1C806A1400D31A2B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA29D0A1C806A1400D31A2B /* ExtensionDelegate.swift */; };
 		ECA29D0D1C806A1400D31A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA29D0C1C806A1400D31A2B /* Assets.xcassets */; };
+		ECA29D1D1C80787B00D31A2B /* Comamnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA29D1C1C80787B00D31A2B /* Comamnd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		ECA29D0A1C806A1400D31A2B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		ECA29D0C1C806A1400D31A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA29D0E1C806A1400D31A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA29D1C1C80787B00D31A2B /* Comamnd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comamnd.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		ECA29CD91C806A1400D31A2B = {
 			isa = PBXGroup;
 			children = (
+				ECA29D1C1C80787B00D31A2B /* Comamnd.swift */,
 				ECA29CE41C806A1400D31A2B /* Calculator */,
 				ECA29CF81C806A1400D31A2B /* Calculator WatchKit App */,
 				ECA29D071C806A1400D31A2B /* Calculator WatchKit Extension */,
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA29D1D1C80787B00D31A2B /* Comamnd.swift in Sources */,
 				ECA29D0B1C806A1400D31A2B /* ExtensionDelegate.swift in Sources */,
 				ECA29D091C806A1400D31A2B /* InterfaceController.swift in Sources */,
 			);
